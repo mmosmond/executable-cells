@@ -19,7 +19,8 @@ Add the following script to the top of your markdown document or, alternatively,
       mountActivateWidget: true,
       mountStatusWidget: true,
       binderOptions: {
-      repo: "binder-examples/requirements",
+      repo: "tomouellette/executable-cells",
+      ref: "main",
       },
   }
 </script>
