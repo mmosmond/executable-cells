@@ -1,6 +1,6 @@
 # executable-cells
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tomouellette/executable-cells/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://gke.mybinder.org/v2/gh/tomouellette/executable-cells/HEAD)
 
 This repository stores the package requirements for executable cells that can be integrated into markdown or html static pages.
 
