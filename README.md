@@ -27,6 +27,8 @@ Add the following script to the top of your markdown document or, alternatively,
 <script src="https://unpkg.com/thebe@latest/lib/index.js"></script>
 ```
 
+If you find that kernel's aren't loading, you can change the mybinder.org host by adding an additional key-value pair to `binderOptions`. For example, if you want to use Google Cloud Kubernetes (GKE) you can specify `binderUrl: "https://gke.mybinder.org"` within `binderOptions`. 
+
 ### Step two
 
 Add a button that allows for a user to activate a binder kernel. If the default button style isn't satisfactory, you can modify it by altering the CSS classes *thebe-status* and/or *thebe-activate* in a separate .css stylesheet.
