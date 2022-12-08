@@ -10,3 +10,4 @@ scipy==1.4.1
 seaborn==0.10.1
 six==1.15.0
 sympy==1.10.1
+msprime==1.2.0
