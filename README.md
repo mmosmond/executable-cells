@@ -19,15 +19,14 @@ Add the following script to the top of your markdown document or, alternatively,
       mountActivateWidget: true,
       mountStatusWidget: true,
       binderOptions: {
-      repo: "tomouellette/executable-cells",
+      repo: "mmosmond/executable-cells",
       ref: "main",
       },
   }
 </script>
 <script src="https://unpkg.com/thebe@latest/lib/index.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/thebe@latest/lib/thebe.css">
 ```
-
-If you find that kernel's aren't loading, you can change the mybinder.org host by adding an additional key-value pair to `binderOptions`. For example, if you want to use Google Cloud Kubernetes (GKE) you can specify `binderUrl: "https://gke.mybinder.org"` within `binderOptions`. 
 
 ### Step two
 
